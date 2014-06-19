@@ -1,0 +1,31 @@
+# Finder
+.DS_Store
+
+# Xcode 3 and ealier
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+
+# Build products
+build/
+
+# Other source repository archive directories (protects when importing)
+.hg
+.svn
+CVS
+
+# Backup files
+*~.nib
+*.swp
+*~
+
+# Xcode 4
+xcuserdata
+project.xcworkspace
+
+# Xcode 5
+*.xccheckout
+
