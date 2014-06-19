@@ -24,7 +24,7 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
 
         textField.text = item!.text
-        toggle.on = item!.isDone!
+        toggle.on = item!.isDone
     }
 
     @IBAction func saveItem(sender: AnyObject) {

@@ -9,8 +9,8 @@
 import UIKit
 
 class ToDoItem {
-    var text: String?
-    var isDone: Bool?
+    var text: String
+    var isDone: Bool
     
     init(text: String, isDone: Bool) {
         self.text = text
